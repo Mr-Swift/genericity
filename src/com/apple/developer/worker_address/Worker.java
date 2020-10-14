@@ -53,7 +53,7 @@ public class Worker {
         if (obj == null) {
             return false;
         }
-        if (obj.getClass() != this.getClass()) {
+        if (obj.getClass() !=this.getClass()) {
             return false;
         }
         Worker worker = (Worker) obj;
